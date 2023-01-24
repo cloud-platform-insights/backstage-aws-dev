@@ -5,14 +5,14 @@ metadata:
   description: Frontend for Online Boutique
   tags:
     - golang
-    - frontend 
+    - frontend
     - http
   links:
     - url: https://github.com/googlecloudplatform/microservices-demo
       title: Online Boutique - Upstream repo
       icon: help
   annotations:
-    'backstage.io/kubernetes-id': frontend
+    "backstage.io/kubernetes-id": frontend
     aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-east-1:764836626122:test
 spec:
   type: service
@@ -20,6 +20,6 @@ spec:
   owner: cpet
   system: online-boutique
   dependsOn:
-  - 'component:adservice'
-  # - .... more backends here 
+    - "component:adservice"
+  # - .... more backends here
   # apiConsumedBy: ['component:frontend']
