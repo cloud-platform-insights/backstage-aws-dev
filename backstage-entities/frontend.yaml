@@ -13,6 +13,7 @@ metadata:
       icon: help
   annotations:
     'backstage.io/kubernetes-id': frontend
+    aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-east-1:764836626122:test
 spec:
   type: service
   lifecycle: experimental
